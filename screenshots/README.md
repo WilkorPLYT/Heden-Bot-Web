@@ -4,23 +4,22 @@ Ta folder zawiera zrzuty ekranu prezentujące funkcjonalności projektu **HEDEN 
 
 ## 📋 Lista Screenshots
 
-### 🌐 Strona Internetowa
-- `strona-glowna.png` - Główna strona z hero section
-- `flota-pojazdow.png` - Galeria floty pojazdów ciężarowych
-- `panel-zlecen-www.png` - Formularz zleceń online
-- `tracking-przesylki.png` - Śledzenie przesyłek przez stronę
-- `zespol-firmy.png` - Prezentacja pracowników i rekrutacja
-- `mobile-view.png` - Responsywna wersja mobilna
+### 📡 Express API Bridge
+- `api-endpoints.png` - Endpointy /new-mail, /new-order, /new-application
+- `api-integration.png` - Integracja z hedencargo-system.pl
+- `cors-config.png` - Konfiguracja CORS dla systemu WWW
+- `api-logs.png` - Logi API i komunikacji
+- `realtime-sync.png` - Real-time synchronizacja zdarzeń
 
 ### 🤖 Discord Bot w akcji
 - `discord-bot.png` - Główny interfejs bota na serwerze
 - `komendy-bot.png` - Przykładowe komendy slash
 - `panele-embed.png` - Interaktywne panele embed
 
-### 📋 System Zleceń (Bot)
-- `panel-zlecen-bot.png` - Panel zarządzania zleceniami przez Discord
-- `tworzenie-zlecenia-bot.png` - Formularz tworzenia zlecenia w Discord
-- `status-zlecenia-bot.png` - Statusy i tracking zleceń
+### 📋 System Spedycyjny (Bot)
+- `panel-spedycji.png` - Panel spedycji z przyciskami wniosków
+- `wniosek-zlecenie.png` - Formularz wniosku o zlecenie
+- `akceptacja-zlecenia.png` - Panel akceptacji przez zarząd
 
 ### 👥 Zarządzanie Pracownikami
 - `panel-pracownikow-bot.png` - Panel zarządzania zespołem
