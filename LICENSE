@@ -1,33 +1,23 @@
-HEDEN Cargo Web - License Agreement
+MIT License
 
 Copyright (c) 2024-2026 WilkorPLYT (𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻) & Daniel [Daniek.]
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This software is the confidential and proprietary information of HEDEN Cargo Sp. z o.o.
-("Confidential Information"). You shall not disclose such Confidential Information
-and shall use it only in accordance with the terms of the license agreement.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Redistribution and use in source and binary forms, with or without modification,
-are strictly prohibited without prior written permission from the copyright holders.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
-INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
-OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
-NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
-EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 Stworzony dla HEDEN Cargo Sp. z o.o.
 
 Autorzy:
 - 𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻 (WilkorPLYT) - https://github.com/WilkorPLYT
 - Daniel [Daniek.] (daniekdan) - https://github.com/daniekdan
-
-HEDEN Cargo Sp. z o.o.
-ul. Transportowa 1, 00-001 Warszawa
-https://hedencargo.pl

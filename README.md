@@ -1,21 +1,21 @@
 <div align="center">
 
-# 🌐 HEDEN Cargo Web - Platforma Informacyjna
+# 🚚 HEDEN Cargo - Discord Bot
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-5+-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3+-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://hedencargo.com)
+[![Discord.js](https://img.shields.io/badge/Discord.js-14+-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.js.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://discord.com/users/446740090757316608)
 [![License](https://img.shields.io/badge/License-Closed%20Source-red?style=for-the-badge)](#-licencja)
 
 <br>
 
-### 🚐 Oficjalna strona internetowa firmy HEDEN Cargo Sp. z o.o.
+### 🚚 Zaawansowany bot Discord do zarządzania zleceniami spedycyjnymi i obsługi społeczności HEDEN Cargo
 
 <br>
 
-[🌐 Demo](#-demo-strony) •
+[✨ Funkcje](#-funkcje) •
 [📸 Screenshots](#-screenshots) •
 [🛠️ Technologie](#️-technologie) •
 [📞 Kontakt](#-kontakt)
@@ -28,70 +28,66 @@
 
 <br>
 
-## 🌐 Demo Strony
-
-### 🏢 Strona Główna
-
-<img src="screenshots/strona-glowna.png" alt="Strona główna HEDEN Cargo" width="800">
-
-<br><br>
-
-### 🚐 Nasza Flota
-
-<img src="screenshots/flota.png" alt="Flota pojazdów HEDEN Cargo" width="800">
-
-<br><br>
-
-### 📋 Panel Zleceń
-
-<img src="screenshots/panel-zlecen.png" alt="Panel zleceń online" width="800">
-
-<br>
-
----
-
-## 📸 Screenshots
-
-### 🎨 Design Interfejsu
+## ✨ Funkcje
 
 <table>
 <tr>
 <td>
 
-#### 🏠 Strona Główna
-- ✅ Nowoczesny design responsywny
-- ✅ Animacje i przejścia CSS
-- ✅ Integracja z Discord Widget
-- ✅ Sekcja aktualności firmy
+### 🎯 Zarządzanie Zleceniami
+- ✅ System zlecen spedycyjnych
+- ✅ Akceptacja/odrzucanie zleceń
+- ✅ Tracking statusu zleceń
+- ✅ Komentarze do zleceń
 
 </td>
 <td>
 
-#### 🚐 Flota Pojazdów
-- ✅ Galeria naszej floty
-- ✅ Specyfikacje techniczne
-- ✅ System śledzenia pojazdów
-- ✅ Historia przejazdów
+### 👥 Zarządzanie Pracownikami
+- ✅ Panel zarządzania pracownikami
+- ✅ System awansów i zwolnień
+- ✅ System ostrzeżeń pracowników
+- ✅ Raporty miesięczne z paginacją
 
 </td>
 </tr>
 <tr>
 <td>
 
-#### 📋 Panel Klienta
-- ✅ Składanie zleceń online
-- ✅ Tracking przesyłek
-- ✅ Historia zleceń
-- ✅ System płatności
+### 🎤 Voice Tracking & Analityka
+- ✅ Śledzenie czasu na kanałach voice
+- ✅ Statystyki aktywności głosowej
+- ✅ Heatmapy aktywności
+- ✅ Analiza trendu użytkowania
 
 </td>
 <td>
 
-#### 👞 Zespół
-- ✅ Prezentacja pracowników
-- ✅ Role i uprawnienia
-- ✅ System kontaktowy
-- ✅ Struktura firmy
+### 🎬 Streamy & Multimedia
+- ✅ Panel streamów (Twitch/YouTube/TikTok)
+- ✅ System ogłoszeń społeczności
+- ✅ Integracja streamerów
+- ✅ Galeria zdjęć i fotoreportaż
+
+</td>
+</tr>
+<tr>
+<td>
+
+### 🆘 Wsparcie & Komunikacja
+- ✅ System ticketów pomocy
+- ✅ Propozycje społeczności
+- ✅ Wezwania pracowników
+- ✅ Transkrypty rozmów
+
+</td>
+<td>
+
+### 🛠️ Narzędzia & System
+- ✅ Backup automtyczny MongoDB
+- ✅ Auto-recovery system
+- ✅ Szczegółowe logi działalności
+- ✅ Web Dashboard (Express.js)
 
 </td>
 </tr>
@@ -99,154 +95,110 @@
 
 <br>
 
----
+## 📸 Screenshots
 
-## 🎨 Przykładowe Elementy UI
+### 👥 Bot Discord w akcji
 
-```html
-<!-- Hero Section -->
-<section class="hero bg-gradient-to-r from-blue-600 to-blue-800">
-  <div class="container mx-auto px-6 py-24">
-    <h1 class="text-5xl font-bold text-white mb-6">
-      HEDEN Cargo Sp. z o.o.
-    </h1>
-    <p class="text-xl text-blue-100 mb-8">
-      Profesjonalne usługi spedycyjne i transportowe
-    </p>
-    <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-      Złóż zlecenie
-    </button>
-  </div>
-</section>
+<img src="screenshots/discord.png" alt="Discord bot" width="400">
 
-<!-- Fleet Grid -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-  <div class="fleet-card bg-white rounded-lg shadow-lg overflow-hidden">
-    <img src="/vehicles/volvo-fh16.jpg" alt="Volvo FH16">
-    <div class="p-6">
-      <h3 class="text-xl font-bold mb-2">Volvo FH16</h3>
-      <p class="text-gray-600">Ciężarówka 40t • 2024</p>
-    </div>
-  </div>
+<br><br>
+
+### 📈 Raporty i Statystyki
+
+<img src="screenshots/raporty.png" alt="Reports" width="500">
+
 </div>
-```
 
 <br>
 
----
+## 🎨 Przykładowe Logi
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚙️  HEDEN Cargo Bot - Uruchamianie...
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[OK] ✓ Zalogowano jako HEDEN Cargo#1234
+[INFO] Discord.js v14.8.0
+[INFO] Serwer: HEDEN Cargo Sp. z o.o.
+[INFO] MongoDB: Połączone
+[TICKET] 🎫 System ticketów załadowany
+[VOICE] 🎤 Voice tracking aktywny
+[COMMAND] 🎯 Zarejestrowano 42 komendy slash
+[OK] ✓ Bot gotowy do pracy!
+
+[TICKET] 🎫 Nowy ticket #001 - Rekrutacja
+[VOICE] 🔊 Użytkownik 𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻 dołączył (1h 23m)
+[SPEDYCJA] 🚚 Nowe zlecenie #045 - Dostawa Kraków
+[REPORT] 📊 Raport wygenerowany dla marca 2026
+```
+
+<br>
 
 ## 🛠️ Technologie
 
 <div align="center">
 
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0085FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-[![Lucide](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Discord.js](https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.js.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)](https://expressjs.com/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://www.docker.com/)
 
 </div>
 
 ### Stack Techniczny:
 
-- **Frontend:** React 18 z Vite 5
-- **Styling:** TailwindCSS 3 z custom components
-- **Animations:** Framer Motion dla płynnych przejść
-- **Icons:** Lucide React Icons
-- **Deployment:** Vercel/Netlify ready
-- **SEO:** Meta tags + Open Graph + Structured Data
+- **Backend:** Node.js 18+ z Discord.js 14
+- **API:** Express.js z CORS i middleware
+- **Baza Danych:** MongoDB 4.4+ (Atlas lub self-hosted)
+- **Voice Tracking:** Integracja audio Discord
+- **HTTP Requests:** Axios (async requests)
+- **Containerization:** Docker & Docker Compose
 
 <br>
-
----
-
-## 🚀 Szybki Start
-
-### Wymagania
-- Node.js 18+
-- npm lub yarn
-- Git
-
-<br>
-
-### Instalacja
-
-```bash
-# Klonuj repozytorium
-git clone https://github.com/WilkorPLYT/HedenCargoWeb-Web.git
-cd HedenCargoWeb-Web
-
-# Zainstaluj zależności
-npm install
-
-# Uruchom serwer deweloperski
-npm run dev
-
-# Zbuduj wersję produkcyjną
-npm run build
-```
-
-<br>
-
----
 
 ## 📁 Struktura Projektu
 
 ```
-HedenCargoWeb-Web/
-├── 📄 index.html                 # Główny plik HTML
-├── 📄 package.json              # Zależności
-├── 📄 vite.config.js            # Konfiguracja Vite
-├── 📄 tailwind.config.js        # Konfiguracja Tailwind
-├── 📄 README.md                 # Ta dokumentacja
-├── 📄 .gitignore                # Git ignore
+HedenCargoWeb/
+├── 📄 index.js                 # Główny plik bota
+├── 📄 server.js                # Serwer Express
+├── 📄 config.js                # Centralna konfiguracja
+├── 📄 package.json             # Zależności
+├── 📄 .env.example             # Wzorzec zmiennych
+├── 📄 README.md                # Ta dokumentacja
+├── 📄 BOT_COMMANDS.md          # Dokumentacja komend
+├── 📄 Dockerfile               # Docker config
+├── 📁 express_files/
+│   ├── controller.js           # Kontrolery
+│   ├── router.js               # Routery
+│   └── mongo_schemas.js        # Schematy
 ├── 📁 src/
-│   ├── main.jsx                # Główny komponent React
-│   ├── App.jsx                 # Aplikacja główna
-│   ├── components/             # Komponenty UI
-│   │   ├── Header.jsx          # Nagłówek
-│   │   ├── Footer.jsx          # Stopka
-│   │   ├── Hero.jsx            # Sekcja hero
-│   │   ├── Fleet.jsx           # Flota pojazdów
-│   │   └── Contact.jsx         # Formularz kontaktowy
-│   ├── pages/                  # Podstrony
-│   │   ├── Home.jsx            # Strona główna
-│   │   ├── About.jsx           # O nas
-│   │   ├── Services.jsx        # Usługi
-│   │   └── Contact.jsx         # Kontakt
-│   ├── assets/                 # Zasoby statyczne
-│   │   ├── images/             # Zdjęcia
-│   │   ├── icons/              # Ikony
-│   │   └── css/                # Style CSS
+│   ├── commands/               # Komendy bota
+│   ├── events/                 # Event handlery
+│   ├── models/                 # Modele danych
+│   ├── services/               # Usługi
 │   └── utils/                  # Funkcje pomocnicze
-├── 📁 public/                  # Pliki publiczne
-│   ├── favicon.ico             # Favicon
-│   ├── manifest.json           # PWA manifest
-│   └── robots.txt              # SEO robots
-└── 📁 screenshots/             # Screenshots aplikacji
+└── 📁 scripts/
+    └── clear_db.js             # Skrypty utility
 ```
 
 <br>
-
----
 
 ## 💼 Dostępne na zamówienie
 
 <div align="center">
 
-### 🌐 Chcesz taką stronę dla swojej firmy?
+### 🎯 Chcesz takiego bota dla swojej firmy?
 
 <br>
 
 | Pakiet | Opis |
 |--------|------|
-| 🎫 **Basic** | Strona wizytówka + sekcja usług |
-| 🚗 **Professional** | Pełna strona + panel klienta + zlecenia |
+| 🎫 **Basic** | Bot do ticketów + voice tracking |
+| 🚗 **Professional** | Pełny system zarządzania + reporting |
 | 🏢 **Enterprise** | Wsparcie + hosting + utrzymanie |
 
 <br>
-
----
 
 ## 📞 Kontakt
 
@@ -261,18 +213,9 @@ HedenCargoWeb-Web/
 | **𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻** | [Wilkor#446740090757316608](https://discord.com/users/446740090757316608) | [@WilkorPLYT](https://github.com/WilkorPLYT) |
 | **daniek.** | [daniek.#640502766959329282](https://discord.com/users/640502766959329282) | [@daniekdan](https://github.com/daniekdan) |
 
-<br>
-
-### 📧 Kontakt Biznesowy
-- 📧 **Email:** biuro@hedencargo.pl
-- 📱 **Telefon:** +48 123 456 789
-- 🏢 **Adres:** ul. Transportowa 1, 00-001 Warszawa
-
 </div>
 
 <br>
-
----
 
 ## 📄 Licencja
 

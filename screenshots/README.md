@@ -1,33 +1,38 @@
 # 📸 Screenshots
 
-Ta folder zawiera zrzuty ekranu prezentujące funkcjonalności projektu **HEDEN Cargo Web**.
+Ta folder zawiera zrzuty ekranu prezentujące funkcjonalności projektu **HEDEN Cargo Discord Bot**.
 
 ## 📋 Lista Screenshots
 
-### 🌐 Strona Główna
-- `strona-glowna.png` - Główna strona z hero section
-- `nawigacja.png` - Responsywna nawigacja mobilna
-- `sekcja-uslug.png` - Sekcja usług firmy
+### 🤖 Bot Discord w akcji
+- `discord.png` - Główny interfejs bota na serwerze
+- `komendy.png` - Przykładowe komendy slash
+- `panele.png` - Interaktywne panele embed
 
-### 🚐 Flota Pojazdów
-- `flota.png` - Galeria floty pojazdów
-- `specyfikacja-pojazdu.png` - Szczegóły techniczne
-- `tracking-gps.png` - System śledzenia GPS
+### 📋 System Zleceń
+- `panel-zlecen.png` - Panel zarządzania zleceniami
+- `tworzenie-zlecenia.png` - Formularz tworzenia zlecenia
+- `status-zlecenia.png` - Statusy i tracking zleceń
 
-### 📋 Panel Zleceń
-- `panel-zlecen.png` - Główny panel zleceń
-- `formularz-zlecenia.png` - Formularz składania zlecenia
-- `tracking-przesylki.png` - Śledzenie przesyłki
+### 👥 Zarządzanie Pracownikami
+- `panel-pracownikow.png` - Panel zarządzania zespołem
+- `awansy.png` - System awansów i rang
+- `ostrzezenia.png` - System ostrzeżeń
 
-### 👥 Zespół
-- `zespol.png` - Prezentacja zespołu
-- `profil-pracownika.png` - Profil pracownika
-- `struktura-firmy.png` - Organizacja firmy
+### 🎤 Voice Tracking
+- `voice-stats.png` - Statystyki voice channels
+- `heatmap.png` - Heatmapy aktywności
+- `raport-miesieczny.png` - Raporty miesięczne
 
-### 📱 Mobile Views
-- `mobile-home.png` - Widok mobilny strony głównej
-- `mobile-flota.png` - Flota na urządzeniach mobilnych
-- `mobile-kontakt.png` - Formularz kontaktowy mobilny
+### 🎬 Streamy i Multimedia
+- `panel-streamerow.png` - Panel streamerów
+- `ogloszenia.png` - System ogłoszeń
+- `galeria.png` - Galeria zdjęć
+
+### 🆘 System Wsparcia
+- `ticket-system.png` - System ticketów pomocy
+- `propozycje.png` - Propozycje społeczności
+- `transkrypty.png` - Transkrypty rozmów
 
 ---
 
@@ -44,10 +49,20 @@ Ta folder zawiera zrzuty ekranu prezentujące funkcjonalności projektu **HEDEN 
 ## 🎨 Wytyczne
 
 - **Format:** PNG lub WebP
-- **Rozdzielczość:** 1920x1080 (desktop), 375x812 (mobile)
+- **Rozdzielczość:** 1920x1080 (desktop)
 - **Waga:** <500KB per screenshot
 - **Nazewnictwo:** opisowe, kebab-case
-- **Brak:** wrażliwych danych, osobistych informacji
+- **Brak:** wrażliwych danych, osobistych informacji, tokenów
+
+---
+
+## 🔒 Bezpieczeństwo
+
+Przed dodaniem screenshotów upewnij się że:
+- Brak widocznych tokenów Discord
+- Brak wrażliwych danych użytkowników
+- Brak prywatnych wiadomości
+- Brak danych osobowych
 
 ---
 
