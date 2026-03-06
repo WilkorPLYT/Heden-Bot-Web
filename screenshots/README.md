@@ -1,38 +1,46 @@
 # 📸 Screenshots
 
-Ta folder zawiera zrzuty ekranu prezentujące funkcjonalności projektu **HEDEN Cargo Discord Bot**.
+Ta folder zawiera zrzuty ekranu prezentujące funkcjonalności projektu **HEDEN Cargo Web Platform**.
 
 ## 📋 Lista Screenshots
 
-### 🤖 Bot Discord w akcji
-- `discord.png` - Główny interfejs bota na serwerze
-- `komendy.png` - Przykładowe komendy slash
-- `panele.png` - Interaktywne panele embed
+### 🌐 Strona Internetowa
+- `strona-glowna.png` - Główna strona z hero section
+- `flota-pojazdow.png` - Galeria floty pojazdów ciężarowych
+- `panel-zlecen-www.png` - Formularz zleceń online
+- `tracking-przesylki.png` - Śledzenie przesyłek przez stronę
+- `zespol-firmy.png` - Prezentacja pracowników i rekrutacja
+- `mobile-view.png` - Responsywna wersja mobilna
 
-### 📋 System Zleceń
-- `panel-zlecen.png` - Panel zarządzania zleceniami
-- `tworzenie-zlecenia.png` - Formularz tworzenia zlecenia
-- `status-zlecenia.png` - Statusy i tracking zleceń
+### 🤖 Discord Bot w akcji
+- `discord-bot.png` - Główny interfejs bota na serwerze
+- `komendy-bot.png` - Przykładowe komendy slash
+- `panele-embed.png` - Interaktywne panele embed
+
+### 📋 System Zleceń (Bot)
+- `panel-zlecen-bot.png` - Panel zarządzania zleceniami przez Discord
+- `tworzenie-zlecenia-bot.png` - Formularz tworzenia zlecenia w Discord
+- `status-zlecenia-bot.png` - Statusy i tracking zleceń
 
 ### 👥 Zarządzanie Pracownikami
-- `panel-pracownikow.png` - Panel zarządzania zespołem
-- `awansy.png` - System awansów i rang
-- `ostrzezenia.png` - System ostrzeżeń
+- `panel-pracownikow-bot.png` - Panel zarządzania zespołem
+- `awansy-rangi.png` - System awansów i rang
+- `ostrzezenia-system.png` - System ostrzeżeń
 
-### 🎤 Voice Tracking
+### 🎤 Voice Tracking i Analityka
 - `voice-stats.png` - Statystyki voice channels
-- `heatmap.png` - Heatmapy aktywności
-- `raport-miesieczny.png` - Raporty miesięczne
+- `heatmap-aktywnosci.png` - Heatmapy aktywności
+- `raport-miesieczny.png` - Raporty miesięczne pracowników
 
 ### 🎬 Streamy i Multimedia
-- `panel-streamerow.png` - Panel streamerów
-- `ogloszenia.png` - System ogłoszeń
-- `galeria.png` - Galeria zdjęć
+- `panel-streamerow.png` - Panel streamerów (Twitch/YouTube)
+- `ogloszenia-firmowe.png` - System ogłoszeń
+- `galeria-zdjec.png` - Galeria zdjęć firmowych
 
 ### 🆘 System Wsparcia
 - `ticket-system.png` - System ticketów pomocy
-- `propozycje.png` - Propozycje społeczności
-- `transkrypty.png` - Transkrypty rozmów
+- `propozycje-pracownikow.png` - Propozycje społeczności
+- `transkrypty-rozmow.png` - Transkrypty ważnych rozmów
 
 ---
 
