@@ -156,13 +156,6 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 
 <br><br>
 
-### 📡 Express API Bridge
-
-<img src="screenshots/api-endpoints.png" alt="API endpoints" width="700">
-
-*Endpointy /new-order, /new-mail, /new-application*
-
-<br><br>
 
 ### 📊 Voice Tracking i Raporty
 
