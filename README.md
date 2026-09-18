@@ -281,24 +281,6 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 | 🚚 **Professional** | Pełny system: Bot + Panel WWW + API + integracje |
 | 🏢 **Enterprise** | Wsparcie 24/7 + hosting + custom features |
 
-<br>
-
----
-
-## 📞 Kontakt
-
-<div align="center">
-
-### Zainteresowany? Napisz do nas!
-
-<br>
-
-| Developer | Discord | GitHub |
-|-----------|---------|--------|
-| **𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻** | [Wilkor#446740090757316608](https://discord.com/users/446740090757316608) | [@WilkorPLYT](https://github.com/WilkorPLYT) |
-| **daniek.** | [daniek.#640502766959329282](https://discord.com/users/640502766959329282) | [@daniekdan](https://github.com/daniekdan) |
-
-</div>
 
 <br>
 
