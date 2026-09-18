@@ -4,19 +4,20 @@
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Discord.js](https://img.shields.io/badge/Discord.js-14+-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.js.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)](https://expressjs.com/)
-[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://www.docker.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://discord.com/users/446740090757316608)
 [![License](https://img.shields.io/badge/License-Closed%20Source-red?style=for-the-badge)](#-licencja)
 
 <br>
 
-### 🌐 Kompleksowa platforma spedycyjna HEDEN Cargo - strona internetowa + zaawansowany bot Discord
+### 🌐 Kompleksowa platforma spedycyjna HEDEN Cargo - panel Zarządu (WWW) + zaawansowany bot Discord
 
 <br>
 
-[🌐 Strona WWW](#-strona-internetowa) •
+[🌐 Panel WWW](#-panel-zarządzania-www) •
+[🔗 Express API](#-express-api-bridge) •
 [🤖 Discord Bot](#-discord-bot) •
 [📸 Screenshots](#-screenshots) •
 [🛠️ Technologie](#️-technologie) •
@@ -32,39 +33,45 @@
 
 ## 🌐 Panel Zarządzania WWW
 
-### �️ Web Dashboard do zarządzania botem i serwerem Discord
+### 🖥️ Web Dashboard do zarządzania botem i serwerem Discord
 
-Nowoczesny panel administracyjny do zarządzania całym systemem HEDEN Cargo:
+Nowoczesny panel administracyjny z logowaniem przez Discord OAuth2 — dostęp wyłącznie dla Zarządu firmy, bezpieczne sesje i chronione API. Panelem zarządza się całym systemem HEDEN Cargo:
 
-#### � Panel Administratora
-- ✅ **Dashboard główny** - Przegląd statystyk serwera i bota
-- ✅ **Zarządzanie użytkownikami** - Panel pracowników i uprawnienia
-- ✅ **Konfiguracja bota** - Ustawienia i parametry systemu
-- ✅ **Logi systemowe** - Szczegółowe logi działalności
+#### 🛡️ Panel Administratora
+- ✅ **Monitor Systemu** - Spalanie (RAM), czas pracy, liczba pracowników, aktywność głosowa na żywo
+- ✅ **HUD w stylu ETS** - Ping bota, uptime i aktualna sekcja jak na desce rozdzielczej ciężarówki
+- ✅ **Live Voice Channels** - Podgląd kto aktualnie siedzi na kanałach głosowych + Top czas dnia
+- ✅ **Logi Systemowe** - Podgląd logów z pamięci procesu + pobieranie plików logów
+- ✅ **Restart bota** - Bezpieczny restart procesu wprost z panelu
+- ✅ **Konfiguracja bota** - 7 zakładek: Statusy, Wygląd embedów, Kanały, Role, Moduły, Emoji (upload własnych), Panele
 
 #### 🎯 Zarządzanie Zleceniami
-- ✅ **Panel zleceń** - Przegląd i zarządzanie zleceniami spedycyjnymi
-- ✅ **Akceptacja wniosków** - Panel do zatwierdzania zleceń pracowników
-- ✅ **Statusy zleceń** - Śledzenie statusów w czasie rzeczywistym
-- ✅ **Raporty zleceń** - Generowanie raportów i statystyk
+- ✅ **Ubezpieczenia** - Panel akceptacji/odrzucania wniosków ubezpieczeniowych z modalem powodu odmowy
+- ✅ **Archiwum Spedycji** - Pełna historia rozstrzygniętych wniosków z filtrami i usuwaniem
+- ✅ **Rekrutacja** - Kolejka zgłoszeń rekrutacyjnych z akceptacją i odrzuceniem
+- ✅ **Kontakt z Zarządem** - Obsługa zgłoszeń kontaktowych pracowników
+- ✅ **Propozycje** - Akceptacja/odrzucanie pomysłów zgłoszonych przez załogę (+ powiadomienie autora)
+- ✅ **Zamknięcie zgłoszeń** - Ujednolicone zamykanie ticketów ze wszystkich kategorii
 
 #### 👥 Zarządzanie Pracownikami
-- ✅ **Awansy i zwolnienia** - System zarządzania rangami
-- ✅ **Ostrzeżenia** - Panel kar i ostrzeżeń
-- ✅ **Voice tracking** - Statystyki aktywności głosowej
-- ✅ **Raporty miesięczne** - Automatyczne generowanie raportów
+- ✅ **Kadry** - Pełna lista pracowników z profilami, notatkami HR i historią aktywności
+- ✅ **Narzędzia HR** - Awans, zwolnienie, ostrzeżenie, punkty HCP, wezwanie (znacznik człowiek + powód)
+- ✅ **Mass DM & ogłoszenia** - Masowe wiadomości prywatne i firmowe ogłoszenia z panelu
+- ✅ **Voice save** - Wymuszenie zapisu otwartych sesji głosowych jednym kliknięciem
+- ✅ **Raporty pracownika** - Indywidualny raport HR + raport głosowy dla dowolnej osoby
 
 #### 🎤 Analityka i Statystyki
-- ✅ **Voice analytics** - Szczegółowe statystyki voice channels
-- ✅ **Heatmapy aktywności** - Wizualizacja obecności pracowników
-- ✅ **Trendy użytkowania** - Analiza trendów aktywności
-- ✅ **Export danych** - Eksport raportów do CSV/PDF
+- ✅ **Voice analytics** - Łączny czas na kanałach, aktywni pracownicy, ostatnia aktywność
+- ✅ **Ranking aktywności TOP 10** - Interaktywny wykres (Chart.js) z filtrem okresu per miesiąc
+- ✅ **Raport głosowy** - Generowanie raportu miesięcznego (podgląd + pliki `.txt` / `.csv` do Excela)
+- ✅ **Wysyłka raportu na Discord** - Raport trafia jednym klikiem na kanał Zarządu
+- ✅ **Statystyki publiczne** - Publiczne dane serwera dla strony startowej
 
-#### � Multimedia i Streamy
-- ✅ **Panel streamerów** - Zarządzanie streamerami Twitch
-- ✅ **Galeria zdjęć** - Zarządzanie fotoreportażami
-- ✅ **Ogłoszenia** - System ogłoszeń firmowych
-- ✅ **Multimedia** - Upload i zarządzanie mediami
+#### 📷 Multimedia
+- ✅ **Fotorelacja** - Kanał 📷Fotorelacja z automatycznymi powiadomieniami o nowych zdjęciach
+- ✅ **Konkurs Fotografa Tygodnia** - Automatyczny, tygodniowy konkurs na najlepsze zdjęcie (rola **Fotograf** dla zwycięzcy)
+- ✅ **Kreator embedów** - Wizualny edytor z podglądem na żywo, wysyłką na wybrany kanał i planowaniem publikacji
+- ✅ **Zarządzanie emoji** - Upload, podmiana i usuwanie własnych emoji panelowych z poziomu WWW
 
 ---
 
@@ -72,26 +79,34 @@ Nowoczesny panel administracyjny do zarządzania całym systemem HEDEN Cargo:
 
 ### 🔗 Integracja z Systemem WWW HEDEN Cargo
 
-Express API (port 6222) służące jako most między botem Discord a zewnętrznym systemem WWW:
+Express API pełniące rolę mostka między botem Discord a zewnętrznym systemem spedycyjnym — powiadomienia z systemu WWW trafiają w sekundę na Discorda:
 
-#### 📡 API Endpoints
-- ✅ **POST /new-mail** - Przekazywanie wiadomości z systemu WWW do Discord
-- ✅ **POST /new-order** - Powiadomienia o nowych zleceniach z systemu spedycyjnego
-- ✅ **POST /new-application** - Nowe wnioski z systemu WWW
+#### 📡 Możliwości Integracji
+- ✅ **Nowe zlecenia** - Powiadomienie z linkiem do szczegółów trafia od razu na kanał administracji spedycji
+- ✅ **Rozstrzygnięcia zleceń** - Automatyczna zmiana statusu zlecenia na Discordzie po decyzji w systemie
+- ✅ **Wnioski** - Administracja dostaje natychmiastowe powiadomienie o nowym wniosku
+- ✅ **Poczta firmowa** - Przekazywanie wiadomości z systemu prosto na Discord (DM)
+- ✅ **Warsztat** - Wynik weryfikacji zlecenia naprawy (DM przyjęte / odrzucone)
+- ✅ **Stacja paliw** - Rozstrzygnięcie protokołu tankowania
+- ✅ **Konfiguracja zestawu** - Wynik sprawdzenia zdjęć zestawu kierowcy
+- ✅ **Ekwipunek** - Alert o przedmiocie, który właśnie stracił ważność
+- ✅ **Inspekcja** - Symulowana kontrola inspekcji („wydruk z tachografu" na DM)
+- ✅ **Radio CB** - Podgląd kto aktualnie siedzi na pokładowych kanałach głosowych
 
 #### 🌐 Integracja z Systemem WWW
-- ✅ **CORS dla `http://128.140.124.163:4000`** - Bezpieczna komunikacja
+- ✅ **Dostęp ograniczony** - API przyjmuje ruch wyłącznie z naszego systemu (CORS)
 - ✅ **Powiadomienia Discord** - Embed messages na kanały i DM
-- ✅ **Linki do systemu** - `https://hedencargo-system.pl/` i `https://system.hedencargo.pl/`
 - ✅ **Real-time sync** - Natychmiastowe powiadomienia o zdarzeniach
 
 #### 🔄 Przepływ Danych
 ```
-System WWW → Express API → Discord Bot → Kanały Discord
-    ↓              ↓              ↓              ↓
-Zlecenie → /new-order → Embed message → 🔻Spedycja
-Wniosek → /new-application → DM do admina → Powiadomienie
-Mail → /new-mail → DM do użytkownika → Wiadomość
+System Spedycyjny WWW → Express API → Discord Bot → Kanały / DM
+    ↓                         ↓              ↓              ↓
+Zlecenie → embed z linkiem → kanał administracji spedycji
+Rozstrzygnięcie → aktualizacja statusu na Discordzie → ✔ / ✖
+Wiadomość → DM do adresatów → 📩
+Warsztat / Stacja / Konfiguracja → DM z wynikiem weryfikacji
+Radio CB → lista osób na kanałach pokładowych
 ```
 
 ---
@@ -100,59 +115,70 @@ Mail → /new-mail → DM do użytkownika → Wiadomość
 
 ### 🚚 Bot do zarządzania firmą spedycyjną
 
-Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zleceniami:
+Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zleceniami — zbudowany w pełni modułowo i automatycznie:
 
 #### 🎯 System Zleceń Spedycyjnych
-- ✅ **Panel spedycji** - Przyciski do wniosków pracowniczych (🔺Spedycja)
-- ✅ **Wnioski o zlecenia** - System składania wniosków transportowych
-- ✅ **Akceptacja przez zarząd** - Panel zatwierdzania zleceń (🔻Spedycja)
-- ✅ **Integracja API** - Powiadomienia z systemu WWW przez Express API
+- ✅ **Panel spedycji** - Przyciski wniosków pracowniczych: 📋 rozpiska, 🏙️ miasto, 📦 towar, ⏳ przedłużenie, ✅ zakończenie
+- ✅ **Modale zgłoszeniowe** - Formularze wniosków z walidacją pól
+- ✅ **Akceptacja przez zarząd** - Wnioski na kanale administracyjnym z przyciskami ✔️/✖️ (+ modal powodu odmowy)
+- ✅ **Komenda /special** - Ogłoszenia o ładunkach specjalnych z pingiem roli
 
 #### 👥 Zarządzanie Pracownikami
-- ✅ **Panel pracowników** - Zarządzanie zespołem przez Discord
-- ✅ **System awansów** - Podnoszenie i obniżanie rang pracowników
-- ✅ **Ostrzeżenia** - System kar i ostrzeżeń dla pracowników
-- ✅ **Raporty miesięczne** - Automatyczne generowanie raportów pracy
+- ✅ **Komendy HR** - `/awans`, `/zwolnienie`, `/ostrzezenie`, `/hcp`, `/wezwanie` + menu kontekstowe „Ostrzeż"
+- ✅ **Rangi automatyczne** - Nadawanie/zdejmowanie ról przy awansach i zwolnieniach
+- ✅ **Punkty HCP** - System punktowy z logiem kto, komu, ile i za co przyznał
+- ✅ **Logi kadr** - Wszystkie akcje HR trafiają do AuditLog + na kanały ogłoszeń/awansów
 
 #### 🎤 Voice Tracking i Analityka
-- ✅ **Śledzenie voice** - Automatyczne monitorowanie czasu na kanałach głosowych
-- ✅ **Statystyki aktywności** - Szczegółowe statystyki obecności
-- ✅ **Heatmapy** - Wizualizacja aktywności pracowników
-- ✅ **Trendy** - Analiza trendów aktywności
+- ✅ **Śledzenie voice** - Automatyczne naliczanie minut aktywności załogi na kanałach
+- ✅ **Zapis na bieżąco** - Trwające sesje dopisywane do statystyk w czasie rzeczywistym, nic nie ginie przy restarcie
+- ✅ **Heatmapa godzinowa** - Aktywność per godzina i per dzień (24 słupki na dobę)
+- ✅ **Raporty miesięczne** - `/raport` i raport głosowy z panelu (`.txt` + `.csv`)
+- ✅ **Ochrona danych** - Graceful shutdown zapisuje wszystkie otwarte sesje przed wyłączeniem
 
-#### 🎬 Streamy i Multimedia
-- ✅ **Panel streamerów** - Ogłaszanie streamów Twitch (Alberto, Osk4r, Benti, Hamdam)
-- ✅ **Powiadomienia LIVE** - Automatyczne ogłoszenia na kanale 🔴LIVE-ON
-- ✅ **Fotoreportaże** - Galeria zdjęć z wydarzeń firmowych (📷Fotorelacja)
-- ✅ **Multimedia** - Zarządzanie treściami na kanale 📷Fotorelacja
+#### 📷 Multimedia
+- ✅ **Fotorelacja** - Kanał 📷Fotorelacja z automatycznymi powiadomieniami o nowych zdjęciach
+- ✅ **Konkurs tygodnia** - Automatyczne wybieranie najlepszego zdjęcia tygodnia (reakcje ❤️) i nadawanie roli **Fotograf**
+- ✅ **Ogłoszenia embed** - Zaplanowane i natychmiastowe publikacje z Kreatora panelu
 
 #### 🆘 System Wsparcia
-- ✅ **Ticket system** - Rekrutacja i inne tematy (automatyczne kanały)
-- ✅ **Propozycje pracowników** - System zgłaszania propozycji na kanale 🔺Propozycje
-- ✅ **Pomoc techniczna** - Wezwania pracowników i wsparcie
-- ✅ **Transkrypty** - Zapisywanie rozmów na kanale Transcrypt
+- ✅ **Ticket system** - Rekrutacja i inne tematy: automatyczne kanały w kategorii wsparcia
+- ✅ **FAQ rekrutacyjne** - Przyciski Status / Wymagania / Problemy Techniczne zanim otworzy się ticket
+- ✅ **Wezwania** - `/wezwanie` tworzy kanał z oznaczonym pracownikiem + przycisk zamknięcia
+- ✅ **Pomoc** - Panel pomocy z tworzeniem wątku do Zarządu
+- ✅ **Statystyki ticketów** - Liczniki, wykonywane/zamykane per typ + transkrypty
 
 #### 🔧 Automatyzacja Serwera
-- ✅ **Panele interaktywne** - Automatyczne odświeżanie paneli (weryfikacja, ticket, spedycja)
-- ✅ **Role i uprawnienia** - Zarządzanie rolami (Zarząd, Spedytor, Streamer, Fotograf)
-- ✅ **Statystyki serwera** - Licznik użytkowników i ostatni członek
-- ✅ **Backup system** - Automatyczne backupy bazy danych
+- ✅ **Panele interaktywne** - Automatyczne odświeżanie paneli przy starcie (weryfikacja, ticket, propozycje, pomoc, spedycja)
+- ✅ **Weryfikacja** - Akceptacja regulaminu w emoji-ramce → rola „Zarejestrowany"
+- ✅ **Licznik serwera** - Kanały „Użytkowników:" i „Ostatni:" odświeżane automatycznie
+- ✅ **Backup system** - Automatyczny cotygodniowy backup bazy danych wysyłany prosto do właścicieli
+- ✅ **Zaplanowane zadania** - Publikacja odroczonych ogłoszeń i wiadomości o wybranej godzinie
+- ✅ **Rotacja statusów** - Status bota zmieniany automatycznie z listy konfigurowanej w panelu
 
 #### 📡 Integracja Zewnętrzna
-- ✅ **System WWW** - Integracja z hedencargo-system.pl i system.hedencargo.pl
-- ✅ **API Bridge** - Express API (port 6222) do komunikacji z systemem
-- ✅ **Powiadomienia zewnętrzne** - Przekazywanie wiadomości i zleceń
-- ✅ **Real-time sync** - Synchronizacja zdarzeń między systemami
+- ✅ **System WWW** - Pełna integracja z naszym systemem spedycyjnym (Express API Bridge)
+- ✅ **Webhooki spedycyjne** - 10+ zdarzeń z systemu obsługiwanych automatycznie
+- ✅ **Powiadomienia zewnętrzne** - Przekazywanie wiadomości, zleceń i rozstrzygnięć
+- ✅ **Real-time sync** - Synchronizacja zdarzeń między systemami w czasie rzeczywistym
 
 ---
 
 ## 📸 Screenshots
 
+### 🖥️ Panel Zarządzania WWW
+
+<img src="screenshots/dashboard-panel.png" alt="Panel zarządzania HEDEN Cargo" width="700">
+
+*Monitor systemu: live voice, statystyki, HUD w stylu ETS i ostatnie akcje w panelu*
+
+<br><br>
+
 ### 🤖 Bot Discord w Akcji
 
 <img src="screenshots/discord-panels.png" alt="Panele Discord bota" width="600">
 
-*Interaktywne panele: spedycja, ticket, streamery, propozycje*
+*Interaktywne panele: weryfikacja, ticket, spedycja, pomoc i propozycje*
 
 <br><br>
 
@@ -161,7 +187,7 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 
 <img src="screenshots/voice-reports.png" alt="Raporty voice tracking" width="700">
 
-*Automatyczne raporty miesięczne z aktywności głosowej*
+*Automatyczne raporty miesięczne z aktywności głosowej (`.txt` + `.csv`)*
 
 <br>
 
@@ -173,26 +199,27 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🚚 HEDEN Cargo Bot + Express API - Uruchamianie...
+🚚 HEDEN Cargo Bot + Panel Zarządu - Uruchamianie...
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[OK] ✓ Express API uruchomiony na porcie 6222
-[OK] ✓ Zalogowano jako HEDEN Cargo#1234
-[INFO] Discord.js v14.8.0
-[INFO] Serwer: HEDEN Cargo Sp. z o.o.
-[INFO] MongoDB: Połączone
-[API] 📡 Endpoints /new-mail, /new-order, /new-application aktywne
-[TICKET] 🎫 System ticketów załadowany
-[VOICE] 🎤 Voice tracking aktywny
-[COMMAND] 🎯 Zarejestrowano 42 komendy slash
+[TIMEZONE] Ustawiono strefę czasową na: Europe/Warsaw
+[DB] Połączono z MongoDB.
+[DB] Modele załadowane.
+[INFO] Zalogowano jako HEDEN Cargo#1234
+[STARTUP] Pobrano 87 członków.
+✅ Kanały MEMBER_COUNT i LAST_MEMBER zsynchronizowane przy starcie
+✅ Panele zaktualizowane
+[VOICE] Przywrócono 3 aktywnych sesji głosowych.
+[REST] Zarejestrowano 10 komend slash.
+[DASHBOARD] Panel dostępny online
 [OK] ✓ System gotowy do pracy!
 
-[API] 📡 Otrzymano nowe zlecenie #045 z hedencargo-system.pl
-[SPEDYCJA] 📋 Wysłano powiadomienie na kanał 🔻Spedycja
-[VOICE] 🔊 Użytkownik 𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻 dołączył (1h 23m)
-[STREAM] 🔴 Streamer Osk4r rozpoczął transmisję na Twitch
+[API] 📡 Nowe zlecenie z systemu — powiadomienie wysłane na kanał spedycji
+[VOICE] 🎤 Zaliczono czas 7 trwającym sesjom głosowym.
 [TICKET] 🎫 Nowy ticket rekrutacyjny #001
-[API] 📧 Nowa wiadomość przekazana do użytkownika
-[REPORT] 📊 Raport voice wygenerowany dla marca 2026
+[DASHBOARD] 📊 Raport głosowy wygenerowany (wrzesień 2026)
+[CONTEST] 🏆 Konkurs fotograficzny rozstrzygnięty — rola Fotograf nadana
+[BACKUP] 💾 Tygodniowy backup bazy wysłany do właścicieli
+[SCHEDULER] 📢 Opublikowano zaplanowane ogłoszenie z Kreatora
 ```
 
 <br>
@@ -215,62 +242,27 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 
 ### Stack Techniczny:
 
-#### 📡 Express API Bridge (Port 6222)
-- **Backend:** Node.js + Express.js
-- **CORS:** Konfiguracja dla `http://128.140.124.163:4000`
-- **Endpoints:** POST /new-mail, /new-order, /new-application
-- **Integration:** Komunikacja z zewnętrznym systemem WWW
+#### 📡 Express API Bridge
+- **Backend:** Node.js + Express.js 5
+- **CORS:** Dostęp wyłącznie z domeny naszego systemu
+- **Endpoints:** 10+ webhooków obsługujących cały obieg firmy
+- **Integration:** Webhooki z zewnętrznego systemu spedycyjnego
 - **Real-time:** Natychmiastowe przekazywanie zdarzeń
 
 #### 🤖 Discord Bot
 - **Runtime:** Node.js 18+ z Discord.js 14
-- **Baza Danych:** MongoDB 4.4+ (Atlas lub self-hosted)
-- **Voice Tracking:** Integracja audio Discord + mongoose
-- **Commands:** Slash commands + context menu + prefix commands
-- **Events:** Guild members, voice states, interactions
-- **Integracja:** Odbieranie zdarzeń z Express API
+- **Baza Danych:** MongoDB + Mongoose 9 (dopracowane modele dla całego systemu)
+- **Voice Tracking:** Sesje + statystyki miesięczne + heatmapa godzinowa
+- **Commands:** 10 komend slash + menu kontekstowe + komendy prefix
+- **Events:** Guild members, voice states, interactions, wiadomości
+- **Harmonogramy:** node-cron — automatyczne zadania cykliczne
 
-<br>
-
-## 📁 Struktura Projektu
-
-```
-HedenCargoWeb/
-├── 📡 Express API Bridge
-│   ├── 📄 server.js           # Serwer Express (port 6222)
-│   ├── 📄 package.json        # Zależności projektu
-│   └── 📁 express_files/      # Pliki API
-│       ├── controller.js      # Kontrolery endpointów
-│       ├── router.js          # Routery API
-│       └── mongo_schemas.js   # Schematy MongoDB
-│
-├── 🤖 Discord Bot
-│   ├── 📄 index.js            # Główny plik bota (4977 linii)
-│   ├── 📄 config.js           # Centralna konfiguracja bota
-│   └── � src/                # (w pliku index.js)
-│       ├── commands/         # Komendy slash bota
-│       ├── events/           # Event handlery Discord
-│       ├── models/           # Modele danych MongoDB
-│       ├── services/         # Usługi bota (voice tracking)
-│       └── utils/            # Funkcje pomocnicze
-│
-├── 📁 Konfiguracja
-│   ├── 📄 .env                # Zmienne środowiskowe
-│   ├── 📄 .env.example        # Wzorzec zmiennych
-│   ├── 📄 .gitignore          # Git ignore
-│   └── 📄 .prettierrc          # Konfiguracja Prettier
-│
-├── 📁 Dokumentacja
-│   ├── 📄 README.md           # Ta dokumentacja
-│   ├── 📄 LICENSE             # Licencja MIT
-│   ├── 📄 BOT_COMMANDS.md     # Dokumentacja komend
-│   └── 📁 screenshots/        # Zrzuty ekranu systemu
-│
-└── 📁 Development
-    ├── 📄 package-lock.json   # Lock file
-    ├── 📄 Dockerfile          # Konfiguracja Docker
-    └── 📄 banner.png          # Banner projektu
-```
+#### 🌐 Panel Zarządzania WWW
+- **Backend:** Express.js + sesje użytkowników przechowywane bezpiecznie w bazie
+- **Auth:** Discord OAuth2 — logowanie tylko dla Zarządu, każde API chronione
+- **Frontend:** Vanilla JS + Chart.js (wykresy), Font Awesome, Toastify (powiadomienia)
+- **Upload:** Multer (własne emoji paneli)
+- **Deploy:** Docker + Fly.io + GitHub Actions (CI/CD)
 
 <br>
 
@@ -286,7 +278,7 @@ HedenCargoWeb/
 |--------|------|
 | 🤖 **Bot Only** | Discord bot + voice tracking + ticket system |
 | 📡 **API Bridge** | Express API + integracja z systemem WWW |
-| 🚚 **Professional** | Pełny system: Bot + API + integracje WWW |
+| 🚚 **Professional** | Pełny system: Bot + Panel WWW + API + integracje |
 | 🏢 **Enterprise** | Wsparcie 24/7 + hosting + custom features |
 
 <br>
@@ -339,7 +331,7 @@ Copyright © 2024-2026 HEDEN Cargo Sp. z o.o.
 
 <br>
 
-Stworzony z ❤️ przez **𝓓𝓻𝓦𝓲𝓵𝓪𝓭𝓸𝓻** & **daniek.** dla **HEDEN Cargo Sp. z o.o.**
+Stworzony z ❤️ przez **𝓓𝓻𝓦𝓲𝓵𝓴𝓸𝓻** & **daniek.** dla **HEDEN Cargo Sp. z o.o.**
 
 <br>
 
