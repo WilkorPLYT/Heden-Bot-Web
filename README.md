@@ -176,7 +176,7 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 
 ### 🤖 Bot Discord w Akcji
 
-<img src="screenshots/discord-panels.png" alt="Panele Discord bota" width="600">
+<img src="screenshots/discord-panel.png" alt="Panele Discord bota" width="600">
 
 *Interaktywne panele: weryfikacja, ticket, spedycja, pomoc i propozycje*
 
@@ -185,7 +185,7 @@ Zaawansowany bot Discord integrujący społeczność z systemem zarządzania zle
 
 ### 📊 Voice Tracking i Raporty
 
-<img src="screenshots/voice-reports.png" alt="Raporty voice tracking" width="700">
+<img src="screenshots/voice-report.png" alt="Raporty voice tracking" width="700">
 
 *Automatyczne raporty miesięczne z aktywności głosowej (`.txt` + `.csv`)*
 
